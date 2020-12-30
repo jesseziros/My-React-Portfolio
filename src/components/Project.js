@@ -6,9 +6,9 @@ function Project(props) {
           <div className="row">
             <div className="col-lg-12">
               <h3>{props.name}</h3>
-              <a href={props.link}><img src={props.image}/></a>
+              <a href={props.link}><img src={props.image} alt=""/></a>
               <h6>{props.message}</h6>
-              <h5>Utilities: {props.utilities}</h5>
+              <h5>Techologies: {props.techologies}</h5>
             </div>
           </div>
         </div>
