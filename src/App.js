@@ -7,7 +7,7 @@ import Navbar from "./components/Navbar"
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router path={process.env.PUBLIC_URL + '/'}>
       <div>
         <Navbar />
         <Switch>
