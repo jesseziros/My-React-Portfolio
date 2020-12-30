@@ -1,4 +1,4 @@
-function Project(props) {
+const Project = (props) => {
   return (
     <div className="offset-md-1 project">
       <div className="card">

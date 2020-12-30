@@ -3,7 +3,7 @@ import Project1 from "../images/Project1.jpg";
 import Project2 from "../images/Project2.png";
 import Project3 from "../images/Project3.png"
 
-function Portfolio() {
+const Portfolio = () => {
   const projectArray = [
     {
       name: "Find your Brewery",
